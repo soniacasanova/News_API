@@ -4,3 +4,9 @@
   box-sizing: border-box;
 }
 
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+p {
+  font-family: 'Montserrat', serif;
+}

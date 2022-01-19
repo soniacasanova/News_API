@@ -6,7 +6,7 @@ function News(props) {
     const {data} = useContext(NewsContext);
 
   return (
-  <div>
+  <div className="">
       {data
       ? data.articles.map((news)=> (
         <NewsArticle data={news} key={news.url} />
