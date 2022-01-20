@@ -23,7 +23,8 @@ p {
 }
 .all-articles {
   grid-gap: 12px;
-  justify-content: center;
+  justify-content: left;
+  margin-left: auto !important;
 }
 
 .article {
@@ -31,9 +32,9 @@ p {
   background-color: white;
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
+  flex-grow: 1 !important;
   overflow: hidden;
-  width: 422px !important;
+  flex-basis: 32% !important;
 }
 .info-source {
   font-size: 14px;
@@ -48,4 +49,23 @@ span.author {
 span.published, span.source {
   text-transform: uppercase;
   font-size: 10px;
+}
+
+@media (max-width: 990px) {
+  h1 {
+    font-size: 1.5rem !important;
+  }
+  
+}
+@media (max-width: 575px) {
+  .all-articles {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .article {
+    width: 100% !important;
+  }
+  .container {
+    padding-left: 0 !important;
+  }
 }
