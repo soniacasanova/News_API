@@ -7,7 +7,7 @@ body {
   background-color: #2e2e2e !important;
 }
 .navbar-header {
-  
+
 }
 .navbar-header h2 {
   font-size: 30px;
@@ -33,6 +33,7 @@ p {
   flex-direction: column;
   flex-grow: 1;
   overflow: hidden;
+  width: 422px !important;
 }
 .info-source {
   font-size: 14px;
