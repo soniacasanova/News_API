@@ -3,10 +3,48 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  background-color: #2e2e2e !important;
+}
+.navbar-header {
+  
+}
+.navbar-header h2 {
+  font-size: 30px;
+  font-family: 'Rock Salt', 'cursive';
+  font-weight: 400;
+}
 h1 {
   font-family: 'Playfair Display', serif;
+  font-size: 2rem !important;
 }
 p {
   font-family: 'Montserrat', serif;
+}
+.all-articles {
+  grid-gap: 12px;
+  justify-content: center;
+}
+
+.article {
+  border-radius: 9px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: hidden;
+}
+.info-source {
+  font-size: 14px;
+  margin-top: auto;
+  color: #2e2e2e;
+}
+span.author {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 700;
+}
+span.published, span.source {
+  text-transform: uppercase;
+  font-size: 10px;
 }
